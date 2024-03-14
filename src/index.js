@@ -1,12 +1,14 @@
 import React from 'react';
-import { render } from "react-dom";
-import { TextInput } from "./lib";
+import { createRoot } from 'react-dom/client';
+import DevelopmentTool from './lib/DevelopmentToolComponent'; // I
+import './style.css'
 
-const App = () => (
-  <div style={{ width: 640, margin: "15px auto" }}>
-    <h1>Hello React</h1>
-    <TextInput label="Email Address" placeholder="name@example.com" />
-  </div>
+// Create a root for rendering your application
+const root = createRoot(document.getElementById('root'));
+
+// Render your application inside the root
+root.render(
+  <React.StrictMode>
+    <DevelopmentTool />
+  </React.StrictMode>
 );
-
-render(<App />, document.getElementById("root"));
