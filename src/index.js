@@ -9,6 +9,6 @@ const root = createRoot(document.getElementById('root'));
 // Render your application inside the root
 root.render(
   <React.StrictMode>
-    <DevelopmentTool />
+    <DevelopmentTool testFunctions={[]} loginFetch={[]}/>
   </React.StrictMode>
 );
