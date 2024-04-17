@@ -15,17 +15,17 @@ To use this library in your React project, follow these steps:
 1. Install the package using npm or yarn:
 
    ```bash
-   npm install react-test-development-tool
+   npm i react-development-test-component
    ```
 
    ```bash
-   yarn add react-test-development-tool
+   yarn add react-development-test-component
    ```
 
 2. Import the necessary components into your project:
 
    ```javascript
-   import DevelopmentTool from 'react-test-development-tool';
+   import DevelopmentTool from 'react-development-test-component';
    ```
 
 ## Usage ℹ️
@@ -41,7 +41,7 @@ Example usage:
 
 ```javascript
 import React from 'react';
-import DevelopmentTool from 'react-test-development-tool';
+import DevelopmentTool from 'react-development-test-component';
 
 const MyComponent = () => {
   // Define test functions
@@ -72,7 +72,7 @@ Example usage:
 
 ```javascript
 import React from 'react';
-import TestRunnerComponent from 'react-test-development-tool';
+import TestRunnerComponent from 'react-development-test-component';
 
 const MyTestRunner = () => {
   // Define test functions

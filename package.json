@@ -1,8 +1,8 @@
 {
   "name": "react-development-test-component",
-  "version": "0.1.0",
-  "main": "dist/index.js",
-  "module": "dist/index.js",
+  "version": "0.1.15",
+  "main": "dist/index.ts",
+  "module": "dist/index.ts",
   "files": [
     "dist"
   ],
@@ -33,6 +33,12 @@
       "last 1 safari version"
     ]
   },
+  "keywords": [
+    "react",
+    "development",
+    "test",
+    "component"
+  ],
   "dependencies": {
     "tailwind": "^4.0.0"
   }
